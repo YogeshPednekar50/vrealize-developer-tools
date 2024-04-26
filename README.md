@@ -1,8 +1,8 @@
 # vRealize Developer Tools
 
 > A [Visual Studio Code](https://code.visualstudio.com/) extension that provides code intelligence features and enables a more
-> developer-friendly experience when creating [vRealize Orchestrator](https://www.vmware.com/products/vrealize-orchestrator.html)
-> and [vRealize Automation](https://www.vmware.com/products/vrealize-automation.html) content.
+> developer-friendly experience when creating [VMware Aria Automation Orchestrator](https://www.vmware.com/products/aria-automation-orchestrator.html)
+> and [VMware Aria Automation](https://www.vmware.com/products/aria-automation.html) content.
 
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/vmware-pscoe.vrealize-developer-tools.svg?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=vmware-pscoe.vrealize-developer-tools)
 [![Build Status](https://github.com/vmware/vrealize-developer-tools/workflows/Build/badge.svg)](https://github.com/vmware/vrealize-developer-tools/actions)
@@ -11,7 +11,7 @@
 
 ## Prerequisites
 
-To use most of the vRealize Developer Tools's functionality, you will need a development [vRealize Orchestrator](https://www.vmware.com/products/vrealize-orchestrator.html) instance and to set up vRealize Build Tools.
+To use most of the vRealize Developer Tools's functionality, you will need a development [VMware Aria Automation Orchestrator](https://www.vmware.com/products/aria-automation-orchestrator.html) instance and to set up vRealize Build Tools.
 
 -   [vRealize Build Tools v2.12.5+](https://labs.vmware.com/flings/vrealize-build-tools)
 -   Access to Artifact Repository - [setup instructions](https://github.com/vmware/vrealize-developer-tools/wiki/Setup-Artifact-Repository)
@@ -43,6 +43,13 @@ If you have installed any versions prior 2.0.0, do the following to upgrade.
 2. Reload VS Code by executing the `Reload Window` command (<kbd>Cmd+Shift+P</kbd>)
 3. Install the latest version of vRealize Developer Tools.
 
+For verions later 2.0.0, do the following to upgrade.
+
+1. Open vRealize Developer Tools from the VS Code Extensions panel (<kbd>Cmd+Shift+X</kbd>)
+2. Click on Down arrow symbol next to  `Uninstall` button and select `Install Another Version`
+3. Select the version you wish to install
+4. Click on `Reload Required` button or Reload VS Code by executing the `Reload Window` command (<kbd>Cmd+Shift+P</kbd>)
+
 ## Contributing
 
 If you're interested in contributing, see our [contributing guide](./.github/CONTRIBUTING.md).
@@ -56,3 +63,7 @@ Please see the file [open_source_licenses.txt](open_source_licenses.txt).
 Copyright 2018-2021 VMware, Inc.
 
 Licensed under the [MIT](LICENSE) License.
+
+## Wiki Documentation
+
+Please refer [vRealize Developer Tools](https://github.com/vmware/vrealize-developer-tools/tree/master/wiki)

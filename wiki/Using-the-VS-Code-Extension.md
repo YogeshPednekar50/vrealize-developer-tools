@@ -30,7 +30,7 @@ Connect to different vRO environments by configuring maven profiles in `~/.m2/se
 </profile>
 ```
 
-Once vRealize Developer Tools extension is activated in VS Code, on the bottom left corner of the status bar, an idicator is shown if there is no currently active profile.
+Once vRealize Developer Tools extension is activated in VS Code, on the bottom left corner of the status bar, an indicator is shown if there is no currently active profile.
 
 ![Missing profile](./images/no-profile.png)
 
@@ -74,6 +74,17 @@ A vRO explorer view is available in the activity bar that allows browsing the wh
 -   Browse the inventory and see properties of each plugin object
 
 ![vRO Explorer](./images/explorer.png)
+
+Please follow the below steps if you receive `Missing or invalid token file` error while browsing vRO inventory
+
+-   Log in to the Control Center as `root`
+-   Select System Properties
+-   Click New
+-   Under Key, enter com.vmware.o11n.sso.basic-authentication.enabled
+-   Under Value, enter true
+-   (Optional) Enter a description for the new system property
+-   Click Add, and wait for the vRealize Orchestrator server to restart
+
 
 #### Inventory Caching
 
